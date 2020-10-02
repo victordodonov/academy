@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic');
+
 body{
+    font-family: 'quicksand', 'sans-serif';
     margin: 0;
     padding: 0;
     min-width: 320px;
@@ -9,4 +12,31 @@ body{
     height: 1043px;
     background: no-repeat url("image/bg.png");
     background-size: cover;
+    box-sizing: border-box;
+}
+
+.logo{
+    background: no-repeat url("image/Logo.png");
+    width: 179px;
+    height: 100px;
+    margin-left: 140px;
+    margin-right: 884px;
+    display: inline-block;
+}
+
+.navbar{
+    position: relative;
+    display: inline-block;
+    top: -45px;
+    
+}
+
+.navbar a{
+    margin-right: 36px;
+    font-size: 16px;
+    color: #929292;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
 }
