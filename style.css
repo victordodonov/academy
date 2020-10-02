@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+
+}
+
+.header{
+    height: 1043px;
+    background: no-repeat url("image/bg.png");
+    background-size: cover;
+}
