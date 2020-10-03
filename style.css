@@ -16,27 +16,79 @@ body{
 }
 
 .logo{
-    background: no-repeat url("image/Logo.png");
+    box-sizing: border-box;
+    background-color: #0f7bff;
     width: 179px;
     height: 100px;
     margin-left: 140px;
-    margin-right: 884px;
+    margin-right: 883px;
+    padding-top: 24px;
+    padding-left: 24px;
     display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
 }
 
 .navbar{
-    position: relative;
     display: inline-block;
-    top: -45px;
+    font-size: 16px;
+    text-transform: uppercase;
+}  
+
+
+.navbar a{
+    position: relative;
+    top: -5px;
+    margin-right: 36px;
+    color: #929292;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
     
 }
 
-.navbar a{
-    margin-right: 36px;
+.navbar a:first-child{
+    color:  #0f7bff;
+}
+
+.navbar button{
+    position: relative;
+    top: -4px;
+    padding: 15px 51px;
+    color: white;
+    background: #0063dd;
+    border: none;
     font-size: 16px;
-    color: #929292;
-    font-weight: 500;
-    display: inline-block;
-    text-decoration: none;
     text-transform: uppercase;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'quicksand', 'sans-serif';
+    margin-left: 12px;
+}
+
+.navbar button:active, 
+.navbar button:focus {
+    outline: none;
+   
+}
+
+.navbar button:active{
+    color: #929299;
+}
+
+.navbar button:hover{
+    text-decoration: underline;
+}
+
+@media all and (width: 1920px){
+    div {
+        max-width: 2560px;
+    }
+}
+
+.header h1{
+    font-size: 36px;
 }
