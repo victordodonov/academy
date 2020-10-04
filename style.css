@@ -5,25 +5,26 @@ body{
     margin: 0;
     padding: 0;
     min-width: 320px;
-
+    
 }
 
 .header{
     height: 1043px;
     background: no-repeat url("image/bg.png");
     background-size: cover;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 /* header top */
 
 .logo{
+    
     box-sizing: border-box;
     background-color: #0f7bff;
     width: 179px;
     height: 100px;
     margin-left: 140px;
-    margin-right: 847px;
+   margin-right: 700px;
     padding-top: 24px;
     padding-left: 24px;
     display: inline-block;
@@ -35,6 +36,8 @@ body{
 }
 
 .navbar{
+    
+    margin-left: 147px;
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
@@ -109,11 +112,7 @@ body{
     color: #929292;    
 }
 
-.device{
-    width: 1200px;
-    height: 1040px;
-    background: url("image/Device.png") no-repeat;
-}
+
 
 .button-elements{
     margin-left: 17px;
@@ -123,7 +122,6 @@ body{
     margin-top: 16px;
     width: 165px;
     text-align: center;
-   
     background: #0063dd;
     border: none;
     font-size: 16px;
@@ -164,3 +162,80 @@ button:focus {
 .button-elements button:hover{
     text-decoration: underline;
 }
+
+.device{
+    position: relative;
+    margin-top: 25px;
+    left: 500px;
+    width: 920px;
+    height: 1049px;
+    background: url("image/Device.png") no-repeat;
+   
+}
+
+/* features */
+
+.features {
+    position: absolute;
+    margin: 0;
+    background-color: #f5fcfd;
+    height: 625px;
+    width: 100%;
+    line-height: 27px;
+
+}
+
+
+
+.features img{
+  margin-left: 145px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.features h1{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.features p{
+    text-align: center;
+    font-size: 16px;
+    color: #929299;
+}
+
+.features-analysis{
+    display: inline-block;
+    margin-left: 391px;
+    margin-top: 165px;
+    margin-right: 25px;
+    height: 290px;
+    width: 361px;
+    background-color: white;
+    box-shadow: 0 0 15px #bebebe; /* Параметры тени */
+}
+
+
+.features-clean-design{
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    margin-right: 25px; 
+    height: 290px;
+    width: 361px;
+    background-color: white;
+    box-shadow: 0 0 15px #bebebe; /* Параметры тени */
+    
+}
+
+.features-messaging{
+    display: inline-block;
+    height: 290px;
+    width: 361px;
+    background-color: white;
+    box-shadow: 0 0 15px #bebebe; /* Параметры тени */
+}
+
+/** About**/
