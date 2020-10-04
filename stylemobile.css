@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic');
+
+body{
+    font-family: 'quicksand', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header{
+    height: 1043px;
+    
+}
+
+.logo{
+    box-sizing: border-box;
+    background-color: #0f7bff;
+    width: 179px;
+    height: 100px;
+    margin-left: 140px;
+    margin-right: 847px;
+    padding-top: 24px;
+    padding-left: 24px;
+    
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.navbar{
+    font-size: 16px;
+    text-transform: uppercase;
+}  
+
+
+.navbar a{
+    position: relative;
+    margin-right: 36px;
+    color: #929292;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.navbar a:first-child{
+    color:  #0f7bff;
+    padding-left: 36px;
+}
+
+.navbar button{
+    position: relative;
+    display: block;
+    padding: 15px 51px;
+    color: white;
+    background: #0063dd;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'quicksand', 'sans-serif';
+    margin-left: 12px;
+    margin: 0 auto;
+}
+
+.navbar button:active, 
+.navbar button:focus {
+    outline: none;
+   
+}
+
+.navbar button:active{
+    color: #929299;
+}
+
+.navbar button:hover{
+    text-decoration: underline;
+}
+
+/* Header center */
+
+.header h1{
+    font-size: 36px;
+    text-indent: 0.4em;
+    color: #333333;
+}
+
+.elements{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 97px;
+}
+
+.elements p{
+    line-height: 27px;
+    text-indent: 1.1em;
+    font-family: 'quicksand', 'sans-serif';
+    font-size: 16px;
+    color: #929292;    
+}
+
+.button-elements{
+    margin-left: 17px;
+}
+
+.button-elements button{
+    margin-top: 16px;
+    width: 165px;
+    text-align: center;
+   
+    background: #0063dd;
+    border: none;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'quicksand', 'sans-serif';
+   
+}
+
+.button-elements button:last-child{
+    
+    background-color:  white;
+    color:#0f7bff;
+    border: solid 2px #0f7bff;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.button-elements button:first-child{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: solid 2px  #0f7bff;
+    background-color: #0f7bff;
+    color: white;
+    
+}
+    
+button:active, 
+button:focus {
+    outline: none;
+   
+}
+
+.button-elements button:active{
+    color: #929299;
+}
+
+.button-elements button:hover{
+    text-decoration: underline;
+}
