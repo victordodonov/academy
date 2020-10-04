@@ -152,3 +152,60 @@ button:focus {
 .button-elements button:hover{
     text-decoration: underline;
 }
+
+
+/* features */
+
+.features {
+    position: absolute;
+    margin: 0;
+    background-color: #f5fcfd;
+    height: 625px;
+    width: 100%;
+    line-height: 27px;
+
+}
+
+
+
+.features img{
+  margin-left: 145px;
+  margin-top: 45px;
+}
+
+.features h1{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.features p{
+    text-align: center;
+    font-size: 16px;
+    color: #929299;
+}
+
+.features-analysis{
+    display: inline-block;
+    margin-right: 30px;
+    height: 290px;
+    width: 361px;
+    background-color: white;
+}
+
+
+.features-clean-design{
+    display: inline-block;
+    margin-right: 30px; 
+    height: 290px;
+    width: 361px;
+    background-color: white;
+}
+
+.features-messaging{
+    display: inline-block;
+    height: 290px;
+    width: 361px;
+    background-color: white;
+}
