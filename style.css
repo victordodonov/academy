@@ -23,7 +23,7 @@ body{
     width: 179px;
     height: 100px;
     margin-left: 140px;
-    margin-right: 883px;
+    margin-right: 847px;
     padding-top: 24px;
     padding-left: 24px;
     display: inline-block;
@@ -47,13 +47,13 @@ body{
     margin-right: 36px;
     color: #929292;
     font-weight: 600;
-    display: inline-block;
     text-decoration: none;
     
 }
 
 .navbar a:first-child{
     color:  #0f7bff;
+    padding-left: 36px;
 }
 
 .navbar button{
@@ -85,11 +85,6 @@ body{
     text-decoration: underline;
 }
 
-@media all and (width: 1920px){
-    div {
-        max-width: 2560px;
-    }
-}
 
 /* Header center */
 
@@ -120,3 +115,52 @@ body{
     background: url("image/Device.png") no-repeat;
 }
 
+.button-elements{
+    margin-left: 17px;
+}
+
+.button-elements button{
+    margin-top: 16px;
+    width: 165px;
+    text-align: center;
+   
+    background: #0063dd;
+    border: none;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'quicksand', 'sans-serif';
+   
+}
+
+.button-elements button:last-child{
+    margin-left: 25px;
+    background-color:  white;
+    color:#0f7bff;
+    border: solid 2px #0f7bff;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.button-elements button:first-child{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: solid 2px  #0f7bff;
+    background-color: #0f7bff;
+    color: white;
+    
+}
+    
+button:active, 
+button:focus {
+    outline: none;
+   
+}
+
+.button-elements button:active{
+    color: #929299;
+}
+
+.button-elements button:hover{
+    text-decoration: underline;
+}
