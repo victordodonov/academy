@@ -380,3 +380,189 @@ button:focus {
     position: absolute;
     
 }
+
+/* pricng */
+
+.pricing{
+    
+    position: relative;
+    height: 836px;
+    background-color: #f4f4f4;
+}
+
+.pricing-plan{
+    position: absolute;
+    width: 360px;
+    left: 388px;
+    top: 265px;
+}
+
+.pricing-plan h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 550;
+    color: #333333;
+    margin-bottom: 27px;
+}
+
+.pricing-plan p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    margin-left: 3px;
+    margin-bottom: 33px;
+}
+
+.monthly{
+    font-family: 'quicksand', 'sans-serif';
+    background-color: #0f7bff;
+    border: solid 2px #0f7bff;
+    color: #ffffff;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px ;
+    padding: 13px 0;
+    margin-left: 3px;
+    width: 165px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.yearly{
+    font-family: 'quicksand', 'sans-serif';
+    background-color: none;
+    border: solid 2px #0f7bff;
+    color: #0f7bff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px ;
+    padding: 13px 0;
+    width: 165px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pricing button:active, 
+.pricing button:focus {
+    outline: none;
+   
+}
+
+.pricing button:active{
+    color: #929299;
+}
+
+.pricing button:hover{
+    text-decoration: underline;
+}
+
+.pricing-standart, .pricing-premium{
+    position: absolute;
+    background-color: #ffffff;
+    height: 576px;
+    width: 360px;
+    top: 130px;
+    text-align: center;
+    color: #929292;
+ 
+}
+
+.pricing-standart{
+    left: 781px;
+}
+
+.pricing-premium{
+    left: 1170px;
+}
+
+.pricing-standart p{
+    font-size: 16px;
+    
+}
+
+.pricing-standart p:last-child, .pricing-premium p:last-child{
+    font-size: 32px;
+    line-height: 0;
+    color: #0f7bff;
+    font-weight: 550;
+}
+
+.pricing-standart p:last-child span{
+    font-size: 16px;
+}
+
+.pricing-premium p:last-child span{
+    font-size: 16px;
+}
+
+
+.name-standart{
+    width: 162px;
+    border-bottom: solid 1px #929292;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 38px;
+    padding-bottom: 25px;
+    margin-bottom: 26px;
+}
+
+
+.name-premium{
+    margin-top: 40px;
+    width: 162px;
+    border-bottom: solid 1px #929292;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 38px;
+    padding-bottom: 25px;
+    margin-bottom: 26px;
+}
+
+.pricing img{
+    margin-bottom: 24px;
+ }
+ 
+.pricing-standart button{
+    font-family: 'quicksand', 'sans-serif';
+    background-color: #0f7bff;
+    border: solid 2px #0f7bff;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 13px 0;
+    margin-left: 3px;
+    width: 165px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.pricing-premium button{
+    font-family: 'quicksand', 'sans-serif';
+    background-color: white;
+    border: solid 2px #0f7bff;
+    color: #0f7bff;
+    border-radius: 25px;
+    padding: 13px 0;
+    width: 165px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+
+/* testimonials*/
+
+.testimonials{
+    position: relative;
+    height: 608px;
+    background-color: #f5fcfd;
+}
