@@ -157,7 +157,7 @@ button:focus {
 /* features */
 
 .features {
-    position: absolute;
+    position: relative;
     margin: 0;
     background-color: #f5fcfd;
     height: 825px;
@@ -208,4 +208,70 @@ button:focus {
     height: 290px;
     width: 361px;
     background-color: white;
+}
+
+/** About**/
+
+.about{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 2190px;
+    width: 100%;
+    background: url("image/Background.png");
+    
+}
+
+.about h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about p{
+    padding-top: 3px;
+    padding-left: 2px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+}
+
+.about a{
+    position: relative;
+    top: 25px;
+    left: -2px;
+    text-decoration: none;
+    color: #0f7bff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;   
+}
+
+.about svg{
+    margin-left: 3px;
+}
+
+.easy-messaging{
+    float: left;
+    width: 454px;
+    margin-top: 75px;
+}
+
+.easy-messaging img{
+    margin-bottom: 141px;
+}
+
+.easy-messaging p, .easy-messaging h1{
+    position: relative;
+}
+
+.keep-in-touch{
+    float: right;
+    width: 454px;
+    margin-top: 195px;
+   
+}
+
+.keep-in-touch img{
+    margin-top: 173px;
+    
 }
