@@ -4,6 +4,7 @@ body{
     font-family: 'quicksand', 'sans-serif';
     margin: 0;
     padding: 0;
+    width: 100%;
     min-width: 320px;
     
 }
@@ -386,7 +387,7 @@ button:focus {
 .pricing{
     
     position: relative;
-    height: 836px;
+    height: 834px;
     background-color: #f4f4f4;
 }
 
@@ -565,4 +566,62 @@ button:focus {
     position: relative;
     height: 608px;
     background-color: #f5fcfd;
+    background-image: url("image/testimonials.png"), url("image/Pagination.png");
+    background-size: left;
+    background-position: 0 , 879px 468px;
+    background-repeat: no-repeat;
+}
+
+.testimonials .comment{
+    position: absolute;
+    left: 878px;
+    top: 100px;
+}
+
+.comment h1{
+    font-weight: 550;
+}
+
+.comment h2{
+    font-size: 18px;
+    color: #333333;
+}
+
+.comment h3{
+    font-size: 14px;
+    color: #929292;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+
+.review1, .review2{
+    box-sizing: border-box;
+    width: 360px;
+    height: 215px;
+    background-color:#ffffff;
+    display: inline-block;
+    background-image: url("image/Twitter_icon-icons.com_66803.png");
+    background-size: 17px;
+    background-repeat: no-repeat ;
+    background-position: 313px 37px;
+    margin-right: 27px;
+    margin-top: 20px;
+}
+
+.name-review1{
+    margin-left: 30px;
+    margin-top: 35px; 
+}
+
+.name-review2{
+    margin-left: 30px;
+    margin-top: 35px; 
+}
+
+.review1 p, .review2 p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    margin-top: 28px;
 }
