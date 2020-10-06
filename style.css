@@ -631,8 +631,6 @@ button:focus {
 .latest-news{
     position: relative;
     height: 960px;
-    background-color: #f4f4f4;
-    
 }
 
 .container-news{
@@ -743,4 +741,80 @@ button:focus {
     color: #929292;
     font-size: 16px;
     line-height: 27px;
+}
+
+/* free trila */
+
+.free-trial{
+    position: relative;
+    height: 336px;
+    background-color: #f5fcfd;
+}
+
+.container-free-trial{
+    position: absolute;
+    height: 336px;
+    width: 1170px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+.title-trial{
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 216px;
+    width: 359px;
+}
+
+.title-trial h1{
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.title-trial p{
+    font-size: 16px;
+    color: #929292;
+}
+
+.free-trial button{
+    font-family: "quicksand", "sans-serif";
+    position: absolute;
+    display: inline-block;
+    border: none;
+    background-color: #0f7bff ;
+    width: 263px;
+    height: 76px;
+    margin-left: 131px;
+    top: 130px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 550;
+    
+}
+
+
+.free-trial svg{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.free-trial button:active, 
+.free-trial button:focus {
+    outline: none;
+   
+}
+
+.free-trial button:active{
+    color: #929299;
+}
+
+.free-trial button:hover{
+    text-decoration: underline;
 }
