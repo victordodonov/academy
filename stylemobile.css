@@ -5,13 +5,12 @@ body{
     margin: 0;
     padding: 0;
     
-
 }
 
 .header{
     position: relative;
     height: 843px;
-    
+   
 }
 
 /* header -top*/
@@ -393,6 +392,7 @@ button:focus {
     position: relative;
     height: 1540px;
     background-color: #f4f4f4;
+    
 }
 
 .container-pricing{
@@ -687,6 +687,10 @@ button:focus {
     width: 360px;
 }
 
+.big-post img{
+    width: 360px;
+}
+
 .big-post h2{
     margin-top: 25px;
     color: #0f7bff;
@@ -720,6 +724,10 @@ button:focus {
     width: 360px;
     top: 10px;
     left: 0px;
+}
+
+.preview-post img{
+    width: 200px;
 }
 
 .preview-post1{
