@@ -7,7 +7,7 @@ body{
     width: 100%;
 }
 
-a, button{
+a, button, input{
     cursor: pointer;
 }
 
@@ -354,8 +354,6 @@ button:focus {
     position: relative;
     background-color: #f5fcfd;
     height: 648px;
-    
-    
 }
 
 .container-how-does{
