@@ -7,6 +7,10 @@ body{
     width: 100%;
 }
 
+a, button{
+    cursor: pointer;
+}
+
 .header{
     position: relative;
     height: 1043px;
@@ -21,7 +25,6 @@ body{
     height: 100px;
     
 }
-
 
 .logo{
     float: left;
@@ -1002,17 +1005,34 @@ footer a:nth-child(-n+3){
 
 /* scrool */
 
+/*
 html {
     scroll-behavior: smooth;
 }
-#smooth-bottom {
-    position: absolute;
-    top: 27px;
-    right: 98px;
-}
+*/
 
 .scrool-down{
-    position: absolute;
-    left: 413px;
-    top: -75px;
+        position: absolute;
+        left: 413px;
+        top: -75px;
 }
+
+
+.scrollup{
+    width:45px;
+    height:45px;
+    position:fixed;
+    bottom: 27px;
+    right:133px;
+    display: none;
+    text-indent:-9999px;
+    background: url('image/scroll.png') no-repeat;
+}
+
+/*
+}
+#smooth-bottom {
+    position: fixed;
+    top: 865px;
+    right: 98px; } */
+
