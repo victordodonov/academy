@@ -956,6 +956,7 @@ footer a:nth-child(-n+3){
     display: none;
     text-indent:-9999px;
     background: url('image/scroll.png') no-repeat;
+    box-shadow: 0 0 15px #bebebe;
 }
 
 /*
