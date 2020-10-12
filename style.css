@@ -614,7 +614,7 @@ button:focus {
 
 /* testimonials*/
 
-@media (min-width: 1300px) and (max-width: 2560px){
+@media (min-width: 1300px) and (max-width: 3100px){
     .testimonials{
         position: relative;
         height: 608px;
