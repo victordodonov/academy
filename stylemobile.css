@@ -205,8 +205,8 @@ button:focus {
 }
 
 .features img{
-  margin-left: 125px;
-  margin-top: 45px;
+    margin-left: 125px;
+    margin-top: 45px;
 }
 
 .features h1{
@@ -728,14 +728,16 @@ button:focus {
 
 .preview-post img{
     width: 200px;
+    
 }
 
-.preview-post1{
+.preview-post1, .preview-post2{
+    text-align: center;
     margin-bottom: -6px;
 }
 
-.preview-post2{
-    margin-bottom: -6px;
+.preview-post3{
+    text-align: center;
 }
 
 .description-preview1, .description-preview2, .description-preview3{
@@ -774,6 +776,7 @@ button:focus {
     bottom: 0;
     margin: auto;
     box-sizing: border-box;
+    text-align: center;
 }
 .title-trial{
     margin-top: 85px;
@@ -794,7 +797,7 @@ button:focus {
 
 .free-trial button{
     font-family: "quicksand", "sans-serif";
-    position: absolute;
+    
     border: none;
     background-color: #0f7bff ;
     width: 263px;
@@ -908,7 +911,7 @@ footer{
     position: relative;
     height: 200px;
     background-color: #0f7bff;
-    
+    text-align: center;
 }
 
 .container-footer{

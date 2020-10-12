@@ -4,7 +4,7 @@ body{
     font-family: 'quicksand', 'sans-serif';
     margin: 0;
     padding: 0;
-    width: 100%;
+  
 }
 
 a, button, input{
@@ -17,13 +17,13 @@ a, button, input{
     background: no-repeat url("image/bg.png");
     background-size: cover;
     margin: 0;
+
 }
 
 /* header top */
 
 .header-top{
-    height: 100px;
-    
+    height: 100px; 
 }
 
 .logo{
@@ -105,8 +105,7 @@ a, button, input{
     right: 0;
     top: 100px;
     bottom: 0;
-    margin: auto;
-    
+    margin: 0 auto;
     height: 943px;
 }
 
@@ -199,7 +198,6 @@ button:focus {
     margin: 0;
     background-color: #f5fcfd;
     height: 635px;
-    width: 100%;
     line-height: 27px;
 
 }
@@ -211,8 +209,7 @@ button:focus {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
-    
+    margin: 0 auto;
  
 }
 
@@ -274,7 +271,6 @@ button:focus {
     margin: 0;
     padding: 0;
     height: 1190px;
-    width: 100%;
     background: url("image/Background.png");
     
 }
@@ -363,7 +359,7 @@ button:focus {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
+    margin: 0 auto;
  
 }
 
@@ -618,20 +614,39 @@ button:focus {
 
 /* testimonials*/
 
-.testimonials{
-    position: relative;
-    height: 608px;
-    background-color: #f5fcfd;
-    background-image: url("image/testimonials.png"), url("image/Pagination.png");
-    background-size: left;
-    background-position: 0 , 879px 468px;
-    background-repeat: no-repeat;
+@media (min-width: 1300px) and (max-width: 2560px){
+    .testimonials{
+        position: relative;
+        height: 608px;
+        background-color: #f5fcfd;
+        background-image: url("image/testimonials.png"), url("image/Pagination.png");
+        background-size: left;
+        background-position: 0 , 879px 468px;
+        background-repeat: no-repeat;
+    }
+    .testimonials .comment{
+        position: absolute;
+        left: 878px;
+        top: 100px;
+    }
+    
 }
 
-.testimonials .comment{
-    position: absolute;
-    left: 878px;
-    top: 100px;
+@media (min-width: 1170px) and (max-width: 1300px){
+    .testimonials{
+        position: relative;
+        height: 608px;
+        background-color: #f5fcfd;
+        background-image: url("image/testimonials.png"), url("image/Pagination.png");
+        background-size: left;
+        background-position: 0 , 805px 468px;
+        background-repeat: no-repeat;
+    }
+    .testimonials .comment{
+        position: absolute;
+        left: 805px;
+        top: 100px;
+    } 
 }
 
 .comment h1{
@@ -661,8 +676,11 @@ button:focus {
     background-size: 17px;
     background-repeat: no-repeat ;
     background-position: 313px 37px;
+    margin-top: 20px; 
+}
+
+.review1{
     margin-right: 27px;
-    margin-top: 20px;
 }
 
 .name-review1{
@@ -681,6 +699,9 @@ button:focus {
     color: #929292;
     margin-top: 28px;
 }
+
+
+
 
 /* latest news */
 
@@ -705,7 +726,6 @@ button:focus {
 }
 
 .title-latest-news{
-   
     position: relative;
     top: 121px;
     margin: 0 auto;
@@ -715,7 +735,6 @@ button:focus {
 }
 
 .latest-news h1{
-
     font-size: 32px;
     font-weight: 550;
     color: #333333;
@@ -1016,17 +1035,19 @@ html {
 }
 
 
-.scrollup{
+.scrollup {
     width:45px;
     height:45px;
     position:fixed;
-    bottom: 27px;
-    right:133px;
+    bottom: 27px; 
     display: none;
     text-indent:-9999px;
     background: url('image/scroll.png') no-repeat;
     box-shadow: 0 0 15px #bebebe;
+    right: 133px;
 }
+
+
 
 /*
 }
